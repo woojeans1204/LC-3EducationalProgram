@@ -1,0 +1,1 @@
+ "C:/Users/awj12/OneDrive/바탕 화면/대학교/GitHub/LC-3EducationalProgram/lib/libLC3AssemblerSimulator.a" -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

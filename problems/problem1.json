@@ -1,0 +1,46 @@
+{
+    "description": "문제 1: R0에 R1 + R2의 값을 저장하는 프로그램을 작성하세요.\nR1과 R2의 값을 더하여 R0에 저장하는 LC-3 프로그램을 작성하세요.",
+    "testCases": [
+        {
+            "registers": {
+              "R1": "0x000A",
+              "R2": "0x0005"
+            },
+            "memory": {},
+            "expected": {
+              "R0": "0x000F"
+            }
+          },
+        {
+        "registers": {
+          "R1": "0x0003",
+          "R2": "0x0005"
+        },
+        "memory": {},
+        "expected": {
+          "R0": "0x0008"
+        }
+      },
+      {
+        "registers": {
+          "R1": "0xFFFF",
+          "R2": "0x0001"
+        },
+        "memory": {},
+        "expected": {
+          "R0": "0x0000"
+        }
+      },
+      {
+        "registers": {
+          "R1": "0x7FFF",
+          "R2": "0x0001"
+        },
+        "memory": {},
+        "expected": {
+          "R0": "0x8000"
+        }
+      }
+    ]
+  }
+  

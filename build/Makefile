@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named MyProject
+# Target rules for targets named LC3EducationalProgram
 
 # Build rule for target.
-MyProject: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MyProject
-.PHONY : MyProject
+LC3EducationalProgram: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LC3EducationalProgram
+.PHONY : LC3EducationalProgram
 
 # fast build rule for target.
-MyProject/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyProject.dir\build.make CMakeFiles/MyProject.dir/build
-.PHONY : MyProject/fast
+LC3EducationalProgram/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LC3EducationalProgram.dir\build.make CMakeFiles/LC3EducationalProgram.dir/build
+.PHONY : LC3EducationalProgram/fast
 
 src/Controller.obj: src/Controller.cpp.obj
 .PHONY : src/Controller.obj
 
 # target to build an object file
 src/Controller.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyProject.dir\build.make CMakeFiles/MyProject.dir/src/Controller.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LC3EducationalProgram.dir\build.make CMakeFiles/LC3EducationalProgram.dir/src/Controller.cpp.obj
 .PHONY : src/Controller.cpp.obj
 
 src/Controller.i: src/Controller.cpp.i
@@ -141,7 +141,7 @@ src/Controller.i: src/Controller.cpp.i
 
 # target to preprocess a source file
 src/Controller.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyProject.dir\build.make CMakeFiles/MyProject.dir/src/Controller.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LC3EducationalProgram.dir\build.make CMakeFiles/LC3EducationalProgram.dir/src/Controller.cpp.i
 .PHONY : src/Controller.cpp.i
 
 src/Controller.s: src/Controller.cpp.s
@@ -149,15 +149,39 @@ src/Controller.s: src/Controller.cpp.s
 
 # target to generate assembly for a file
 src/Controller.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyProject.dir\build.make CMakeFiles/MyProject.dir/src/Controller.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LC3EducationalProgram.dir\build.make CMakeFiles/LC3EducationalProgram.dir/src/Controller.cpp.s
 .PHONY : src/Controller.cpp.s
+
+src/GradingModule.obj: src/GradingModule.cpp.obj
+.PHONY : src/GradingModule.obj
+
+# target to build an object file
+src/GradingModule.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LC3EducationalProgram.dir\build.make CMakeFiles/LC3EducationalProgram.dir/src/GradingModule.cpp.obj
+.PHONY : src/GradingModule.cpp.obj
+
+src/GradingModule.i: src/GradingModule.cpp.i
+.PHONY : src/GradingModule.i
+
+# target to preprocess a source file
+src/GradingModule.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LC3EducationalProgram.dir\build.make CMakeFiles/LC3EducationalProgram.dir/src/GradingModule.cpp.i
+.PHONY : src/GradingModule.cpp.i
+
+src/GradingModule.s: src/GradingModule.cpp.s
+.PHONY : src/GradingModule.s
+
+# target to generate assembly for a file
+src/GradingModule.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LC3EducationalProgram.dir\build.make CMakeFiles/LC3EducationalProgram.dir/src/GradingModule.cpp.s
+.PHONY : src/GradingModule.cpp.s
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
 # target to build an object file
 src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyProject.dir\build.make CMakeFiles/MyProject.dir/src/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LC3EducationalProgram.dir\build.make CMakeFiles/LC3EducationalProgram.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
 src/main.i: src/main.cpp.i
@@ -165,7 +189,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyProject.dir\build.make CMakeFiles/MyProject.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LC3EducationalProgram.dir\build.make CMakeFiles/LC3EducationalProgram.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -173,7 +197,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyProject.dir\build.make CMakeFiles/MyProject.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LC3EducationalProgram.dir\build.make CMakeFiles/LC3EducationalProgram.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -184,10 +208,13 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... MyProject
+	@echo ... LC3EducationalProgram
 	@echo ... src/Controller.obj
 	@echo ... src/Controller.i
 	@echo ... src/Controller.s
+	@echo ... src/GradingModule.obj
+	@echo ... src/GradingModule.i
+	@echo ... src/GradingModule.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
