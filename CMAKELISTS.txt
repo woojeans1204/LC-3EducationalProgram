@@ -1,0 +1,25 @@
+# CMakeLists.txt
+cmake_minimum_required(VERSION 3.10)
+project(MyProject LANGUAGES CXX)
+
+# C++ 표준 설정
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# 헤더 파일 디렉토리 포함
+include_directories(${CMAKE_SOURCE_DIR}/include)
+
+# 라이브러리 파일 디렉토리 설정
+link_directories(${CMAKE_SOURCE_DIR}/lib)
+
+# 소스 파일 설정
+set(SOURCES
+    src/Controller.cpp
+    src/main.cpp
+)
+
+# 실행 파일 생성
+add_executable(MyProject ${SOURCES})
+
+# 라이브러리 링크
+target_link_libraries(MyProject PRIVATE LC3AssemblerSimulator)
