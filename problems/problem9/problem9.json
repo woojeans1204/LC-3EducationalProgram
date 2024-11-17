@@ -1,0 +1,35 @@
+{
+  "description": "R1과 R2를 입력받아 두 값을 더한 결과를 R0에 저장하는 함수 호출 프로그램을 작성하세요.",
+  "testCases": [
+    {
+      "registers": {
+        "R1": 10,
+        "R2": 20
+      },
+      "memory": {},
+      "expected": {
+        "R0": 30
+      }
+    },
+    {
+      "registers": {
+        "R1": 100,
+        "R2": 200
+      },
+      "memory": {},
+      "expected": {
+        "R0": 300
+      }
+    },
+    {
+      "registers": {
+        "R1": -15,
+        "R2": 20
+      },
+      "memory": {},
+      "expected": {
+        "R0": 5
+      }
+    }
+  ]
+}

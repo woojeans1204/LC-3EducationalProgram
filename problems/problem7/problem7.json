@@ -1,0 +1,41 @@
+{
+  "description": "입력된 숫자의 팩토리얼 값을 계산하여 R1에 저장하는 프로그램을 작성하세요.",
+  "testCases": [
+    {
+      "registers": {
+        "R0": 5
+      },
+      "memory": {},
+      "expected": {
+        "R1": 120
+      }
+    },
+    {
+      "registers": {
+        "R0": 1
+      },
+      "memory": {},
+      "expected": {
+        "R1": 1
+      }
+    },
+    {
+      "registers": {
+        "R0": 3
+      },
+      "memory": {},
+      "expected": {
+        "R1": 6
+      }
+    },
+    {
+      "registers": {
+        "R0": 0
+      },
+      "memory": {},
+      "expected": {
+        "R1": 1
+      }
+    }
+  ]
+}

@@ -21,6 +21,7 @@ namespace Assembler
         void assemble(const std::string &inputFilePath, const std::string &outputFilePath);
         void firstPass(const std::string &inputFilePath);
         void secondPass(const std::string &outputFilePath);
+        void reset();
 
     private:
         Parser parser;

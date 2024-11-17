@@ -1,0 +1,32 @@
+{
+  "description": "R0에 입력된 숫자 N에 대해, N번째 피보나치 수를 계산하여 R1에 저장하는 프로그램을 작성하세요.",
+  "testCases": [
+    {
+      "registers": {
+        "R0": 1
+      },
+      "memory": {},
+      "expected": {
+        "R1": 1
+      }
+    },
+    {
+      "registers": {
+        "R0": 5
+      },
+      "memory": {},
+      "expected": {
+        "R1": 5
+      }
+    },
+    {
+      "registers": {
+        "R0": 10
+      },
+      "memory": {},
+      "expected": {
+        "R1": 55
+      }
+    }
+  ]
+}

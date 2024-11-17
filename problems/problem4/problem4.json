@@ -1,0 +1,41 @@
+{
+  "description": "R0의 값이 음수이면 양수로 변환하여 R0에 저장하는 프로그램을 작성하세요.",
+  "testCases": [
+    {
+      "registers": {
+        "R0": -10
+      },
+      "memory": {},
+      "expected": {
+        "R0": 10
+      }
+    },
+    {
+      "registers": {
+        "R0": 5
+      },
+      "memory": {},
+      "expected": {
+        "R0": 5
+      }
+    },
+    {
+      "registers": {
+        "R0": 0
+      },
+      "memory": {},
+      "expected": {
+        "R0": 0
+      }
+    },
+    {
+      "registers": {
+        "R0": -1
+      },
+      "memory": {},
+      "expected": {
+        "R0": 1
+      }
+    }
+  ]
+}

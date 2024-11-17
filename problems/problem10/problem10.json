@@ -1,0 +1,41 @@
+{
+  "description": "재귀적으로 팩토리얼을 계산하는 프로그램을 작성하세요.",
+  "testCases": [
+    {
+      "registers": {
+        "R0": 5
+      },
+      "memory": {},
+      "expected": {
+        "R2": 120
+      }
+    },
+    {
+      "registers": {
+        "R0": 3
+      },
+      "memory": {},
+      "expected": {
+        "R2": 6
+      }
+    },
+    {
+      "registers": {
+        "R0": 1
+      },
+      "memory": {},
+      "expected": {
+        "R2": 1
+      }
+    },
+    {
+      "registers": {
+        "R0": 0
+      },
+      "memory": {},
+      "expected": {
+        "R2": 1
+      }
+    }
+  ]
+}

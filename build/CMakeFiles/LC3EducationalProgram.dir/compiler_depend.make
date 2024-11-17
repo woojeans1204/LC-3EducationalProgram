@@ -387,7 +387,6 @@ CMakeFiles/LC3EducationalProgram.dir/src/main.cpp.obj: C:/Users/awj12/OneDrive/ë
   C:/MinGW/include/assert.h \
   C:/MinGW/include/ctype.h \
   C:/MinGW/include/direct.h \
-  C:/MinGW/include/dos.h \
   C:/MinGW/include/errno.h \
   C:/MinGW/include/io.h \
   C:/MinGW/include/locale.h \
@@ -402,7 +401,6 @@ CMakeFiles/LC3EducationalProgram.dir/src/main.cpp.obj: C:/Users/awj12/OneDrive/ë
   C:/MinGW/include/strings.h \
   C:/MinGW/include/sys/stat.h \
   C:/MinGW/include/sys/types.h \
-  C:/MinGW/include/sys/stat.h \
   C:/MinGW/include/sys/types.h \
   C:/MinGW/include/time.h \
   C:/MinGW/include/w32api.h \
@@ -658,8 +656,6 @@ C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/hashtable.h:
 C:/MinGW/include/stdio.h:
 
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/localefwd.h:
-
-C:/MinGW/include/dos.h:
 
 C:/MinGW/include/stdlib.h:
 

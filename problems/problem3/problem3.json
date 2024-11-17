@@ -1,0 +1,45 @@
+{
+  "description": "R0이 R1보다 크면 R2에 1을, 그렇지 않으면 0을 저장하는 프로그램을 작성하세요.",
+  "testCases": [
+    {
+      "registers": {
+        "R0": 10,
+        "R1": 5
+      },
+      "memory": {},
+      "expected": {
+        "R2": 1
+      }
+    },
+    {
+      "registers": {
+        "R0": 3,
+        "R1": 7
+      },
+      "memory": {},
+      "expected": {
+        "R2": 0
+      }
+    },
+    {
+      "registers": {
+        "R0": -2,
+        "R1": -5
+      },
+      "memory": {},
+      "expected": {
+        "R2": 1
+      }
+    },
+    {
+      "registers": {
+        "R0": 0,
+        "R1": 0
+      },
+      "memory": {},
+      "expected": {
+        "R2": 0
+      }
+    }
+  ]
+}

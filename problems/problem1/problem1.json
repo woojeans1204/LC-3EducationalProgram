@@ -1,0 +1,35 @@
+{
+  "description": "R0에 R1 + R2의 값을 저장하는 프로그램을 작성하세요.",
+  "testCases": [
+    {
+      "registers": {
+        "R1": 5,
+        "R2": 10
+      },
+      "memory": {},
+      "expected": {
+        "R0": 15
+      }
+    },
+    {
+      "registers": {
+        "R1": -3,
+        "R2": 7
+      },
+      "memory": {},
+      "expected": {
+        "R0": 4
+      }
+    },
+    {
+      "registers": {
+        "R1": 0,
+        "R2": 0
+      },
+      "memory": {},
+      "expected": {
+        "R0": 0
+      }
+    }
+  ]
+}

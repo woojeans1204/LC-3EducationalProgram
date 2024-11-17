@@ -125,6 +125,7 @@ void Controller::runProgram()
                 return;
             }
         }
+        return;
     }
 
     std::cout << "Program execution finished." << std::endl;
@@ -144,6 +145,7 @@ void Controller::reset()
     isSuccess = true;
     stepCnt = 0;
     debugMode = false;
+    assembler.reset();
     emulator.reset();
 }
 

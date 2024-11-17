@@ -19,7 +19,7 @@ namespace Assembler
     {
     public:
         Parser(SymbolTable &symTable);
-
+        void reset();
         bool hasNext() const;
         ParsedLine getNext();
 
